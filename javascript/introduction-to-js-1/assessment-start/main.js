@@ -16,7 +16,6 @@ randomize.addEventListener('click', result);
 
 function result() {
   let newStory = storyText;
-  console.log(newStory);
   let Xitem = randomValueFromArray(insertX);
   let Yitem = randomValueFromArray(insertY);
   let Zitem = randomValueFromArray(insertZ);
@@ -42,6 +41,5 @@ function result() {
   story.textContent = newStory;
   // end of point 6
   story.style.visibility = 'visible';
-  console.log(newStory);
 }
 
